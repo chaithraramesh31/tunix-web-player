@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const authEndpoint = "https://accounts.spotify.com/authorize?";
-const clientId = "55cf1516b1614a70adc597166d7a4b21";
+const clientId = "your client id";
 const redirectUri = "https://tunix-web-player.netlify.app/";
 const scopes = ["user-library-read","playlist-read-private","user-read-recently-played","user-read-private",
             "user-top-read","user-read-playback-position","user-read-playback-state","user-modify-playback-state",
